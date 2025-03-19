@@ -5,6 +5,8 @@ import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./style.css";
 import Abc,{Contactus, Mypage} from './About';
 import Mybootstrap from './Mybootstrap';
+import Myreactbootstrap from './Myreactbootstrap';
+import MyMUIpage from './MyMUIpage';
 
 
 
@@ -16,6 +18,8 @@ root.render(
     <Contactus></Contactus>
     <Mypage></Mypage>
     <Mybootstrap></Mybootstrap>
+    <Myreactbootstrap></Myreactbootstrap>
+    <MyMUIpage></MyMUIpage>
  
   </React.StrictMode>
 );
