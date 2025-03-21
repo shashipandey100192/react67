@@ -7,13 +7,14 @@ import Abc,{Contactus, Mypage} from './About';
 import Mybootstrap from './Mybootstrap';
 import Myreactbootstrap from './Myreactbootstrap';
 import MyMUIpage from './MyMUIpage';
+import Mypage1 from './Mypage';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
+   <Mypage1></Mypage1>
     <Abc></Abc>
     <Contactus></Contactus>
     <Mypage></Mypage>
